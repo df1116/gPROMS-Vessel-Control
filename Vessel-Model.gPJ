@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gMB:GpromsProject xmlns:gMB="http://www.psenterprise.com/gMB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.psenterprise.com/gMB http://www.psenterprise.com/gPJ.xsd" version="12" gMB_Version="6.0.2" gMB_Build="55122">
+  <Properties>
+    <BooleanProperty name="LibraryProject">false</BooleanProperty>
+    <BooleanProperty name="GrainTimestamps">true</BooleanProperty>
+    <BooleanProperty name="DisplayEmptyGroups">true</BooleanProperty>
+    <StringProperty name="ModifiedBy">danni</StringProperty>
+    <DateProperty name="ModifiedDate">2020-01-15T10:04:27Z</DateProperty>
+  </Properties>
+  <ImageCache>
+    <Image res="defaultModelIcon"/>
+  </ImageCache>
+  <ModelReferenceCache>
+  </ModelReferenceCache>
+  <Group name="Variable Types">
+    <VariableTypeEntity name="AdsorptionConstant" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-23T15:57:03Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:57:47Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <Units>kPa^-1</Units>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="Error" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-18T15:55:28Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-18T15:55:48Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <UomRef name="kilopascal"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="Holdup" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-07T20:24:13Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:45:49Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.5</DefaultValue>
+      <MinValue>0.0</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <UomRef name="kilomole"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="IntegralError" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-23T15:51:00Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:52:41Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <Units>kPa^2*h</Units>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="IntegralTime" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-17T12:25:26Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:48:35Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.1</DefaultValue>
+      <MinValue>0.0</MinValue>
+      <MaxValue>1.0</MaxValue>
+      <UomRef name="hour"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="MolFlow" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-07T20:25:02Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:45:40Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.5</DefaultValue>
+      <MinValue>0.0</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <UomRef name="kilomole_per_hour"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="MolFrac" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-07T20:22:45Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-19T13:11:57Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.5</DefaultValue>
+      <MinValue>0.0</MinValue>
+      <MaxValue>1.0</MaxValue>
+      <UomRef name="no_unit"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="NoType" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-23T15:50:40Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:50:40Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <UomRef name="no_unit"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="Pressure" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-07T20:32:37Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:48:10Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>1900.0</DefaultValue>
+      <MinValue>0.0</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <UomRef name="kilopascal"/>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="Proportional" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2020-01-13T10:55:12Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-13T10:56:16Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.001</DefaultValue>
+      <MinValue>0.0</MinValue>
+      <MaxValue>0.05</MaxValue>
+      <Units>kPa^-1</Units>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="Rate" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-19T14:16:29Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:48:26Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <Units>kmol/kg-cat*h</Units>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="RateConstant" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-23T16:01:50Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T16:02:36Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <Units>kmol/kgcat*h*kPa^3</Units>
+    </VariableTypeEntity>
+    <VariableTypeEntity name="ValveConstant" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-10T14:54:35Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T16:00:54Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+      </Properties>
+      <DefaultValue>0.0</DefaultValue>
+      <MinValue>-1.0E30</MinValue>
+      <MaxValue>1.0E30</MaxValue>
+      <Units>kmol*T^0.5/h*kPa</Units>
+    </VariableTypeEntity>
+  </Group>
+  <Group name="Models">
+    <ModelEntity name="Controller" version="8" UnitNameShown="true" UnitModelShown="false" AutoRouteConnections="true">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-17T12:20:37Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-15T10:04:27Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="DefaultTab">topology</StringProperty>
+        <StringProperty name="DefaultCaseTab">reports</StringProperty>
+        <BooleanProperty name="DisplayedInPalette">false</BooleanProperty>
+        <BooleanProperty name="RecycleBreaker">false</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">true</BooleanProperty>
+      </Properties>
+      <Icon>-199773695</Icon>
+      <FlowsheetLayers DefaultLayer="Layer 1">
+        <Layer name="Layer 1" visible="true" printed="true"/>
+      </FlowsheetLayers>
+      <UMS><![CDATA[]]></UMS>
+      <Body><![CDATA[PARAMETER
+    NoComp                              AS ORDERED_SET
+    xin1            AS ARRAY (NoComp)   OF REAL
+    xin2            AS ARRAY (NoComp)   OF REAL
+    v               AS ARRAY (NoComp)   OF INTEGER          # Stoichiometric Coefficient
+    w                                   AS REAL
+    kr                                  AS REAL
+    Keq                                 AS REAL
+    K               AS ARRAY (NoComp)   OF REAL             # Kinetic Constants
+    R                                   AS REAL            
+    T                                   AS REAL
+    Patm                                AS REAL
+    Vol                                 AS REAL             # Volume
+    Vpss                                AS REAL             # Valve Position at Steady State
+    
+VARIABLE
+    N               AS ARRAY(NoComp)    OF Holdup
+    Fin1                                AS MolFlow
+    Fin2                                AS MolFlow
+    Fout                                AS MolFlow
+    x               AS ARRAY(NoComp)    OF MolFrac
+    rate                                AS Rate
+    NT                                  AS Holdup           # Total Holdup
+    Pcomp           AS ARRAY(NoComp)    OF Pressure         # Partial Pressure
+    cv                                  AS ValveConstant
+    VpDummy                             AS NoType           # Valve Position (intermediate variable)
+    VpReal                              AS NoType           # Valve Position
+    P                                   AS Pressure         # Total Pressure
+    error                               AS Error            # Error in Pressure
+    Pset                                AS Pressure         # Pressure set point
+    ti                                  AS IntegralTime     # Integral Controller Term
+    Kc                                  AS Proportional     # Proportional Controller Term
+    ISE                                 AS IntegralError    # Integral Square Error
+    
+
+EQUATION
+    # Molar balance
+    $N(NoComp) = (Fin1 / 60) * xin1(NoComp) + (Fin2 / 60) * xin2(NoComp) - (Fout / 60) * x(NoComp) + v(NoComp) * (rate / 60) * w;
+    
+    # Molar fraction
+    x(NoComp) = N(NoComp) / NT;
+
+    # Sum of moles
+    NT = SIGMA(N(NoComp));
+
+    # Rate equation
+    rate = (kr * (Pcomp('1') * Pcomp('2') ^ 2 - (1 / Keq) * Pcomp('3'))) / (1 + K('1') * Pcomp('1') + K('2') * Pcomp('2') + K('3') * Pcomp('3')) ^ 3;
+    
+    # Partial pressure
+    Pcomp(NoComp) = x(NoComp) * P;
+
+    # Fout
+    Fout = (VpReal * cv) / SQRT(T) * (P - Patm);
+
+    # Ideal gas law
+    P * Vol = NT * R * T;
+
+    # Error
+    error = P - Pset;
+
+    # Controller
+    error = $((ti * 60) * ((VpDummy - Vpss) / Kc - error));
+
+    # Integral square error
+    error ^ 2 = $(ISE * 60);
+
+    # Valve Position Cut-Off
+    IF VpDummy > 1.0 THEN
+        VpReal = 1.0;
+    ELSE
+        IF VpDummy < 0.0 THEN 
+            VpReal = 0.0;
+        ELSE
+            VpReal = VpDummy;
+        END
+    END]]></Body>
+    </ModelEntity>
+    <ModelEntity name="CSTR" version="8" UnitNameShown="true" UnitModelShown="false" AutoRouteConnections="true">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-07T20:03:49Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-13T10:27:17Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="DefaultTab">topology</StringProperty>
+        <StringProperty name="DefaultCaseTab">reports</StringProperty>
+        <BooleanProperty name="DisplayedInPalette">false</BooleanProperty>
+        <BooleanProperty name="RecycleBreaker">false</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">true</BooleanProperty>
+      </Properties>
+      <Icon>-199773695</Icon>
+      <FlowsheetLayers DefaultLayer="Layer 1">
+        <Layer name="Layer 1" visible="true" printed="true"/>
+      </FlowsheetLayers>
+      <UMS><![CDATA[]]></UMS>
+      <Body><![CDATA[PARAMETER
+    NoComp                              AS ORDERED_SET
+    xin1            AS ARRAY (NoComp)   OF REAL
+    xin2            AS ARRAY (NoComp)   OF REAL
+    v               AS ARRAY (NoComp)   OF INTEGER          # Stoichiometric Coefficient
+    w                                   AS REAL
+    kr                                  AS REAL
+    Keq                                 AS REAL
+    K               AS ARRAY (NoComp)   OF REAL             # Kinetic Constants
+    Vp                                  AS REAL             # Valve Position
+    R                                   AS REAL
+    T                                   AS REAL
+    Patm                                AS REAL
+    Vol                                 AS REAL             # Volume   
+    
+VARIABLE
+    N               AS ARRAY(NoComp)    OF Holdup
+    Fin1                                AS MolFlow
+    Fin2                                AS MolFlow
+    Fout                                AS MolFlow
+    x               AS ARRAY(NoComp)    OF MolFrac
+    rate                                AS Rate
+    NT                                  AS Holdup           # Total Holdup
+    Pcomp           AS ARRAY(NoComp)    OF Pressure         # Partial Pressure
+    cv                                  AS ValveConstant
+    P                                   AS Pressure         # Total Pressure
+
+EQUATION
+    # Molar balance
+    $N(NoComp) = (Fin1 / 60) * xin1(NoComp) + (Fin2 / 60) * xin2(NoComp) - (Fout / 60) * x(NoComp) + v(NoComp) * (rate / 60) * w;
+    
+    # Molar fraction
+    x(NoComp) = N(NoComp) / NT;
+
+    # Sum of moles
+    NT = SIGMA(N(NoComp));
+
+    # Rate equation
+    rate = (kr * (Pcomp('1') * Pcomp('2') ^ 2 - (1 / Keq) * Pcomp('3'))) / (1 + K('1') * Pcomp('1') + K('2') * Pcomp('2') + K('3') * Pcomp('3')) ^ 3;
+    
+    # Partial pressure
+    Pcomp(NoComp) = x(NoComp) * P;
+
+    # Fout
+    Fout = (Vp * cv) / SQRT(T) * (P - Patm);
+
+    # Ideal gas law
+    P * Vol = NT * R * T;]]></Body>
+    </ModelEntity>
+    <ModelEntity name="ParameterEstimation" version="8" UnitNameShown="true" UnitModelShown="false" AutoRouteConnections="true">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-23T15:22:53Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-13T11:05:01Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="DefaultTab">topology</StringProperty>
+        <StringProperty name="DefaultCaseTab">reports</StringProperty>
+        <BooleanProperty name="DisplayedInPalette">false</BooleanProperty>
+        <BooleanProperty name="RecycleBreaker">false</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">true</BooleanProperty>
+      </Properties>
+      <Icon>-199773695</Icon>
+      <FlowsheetLayers DefaultLayer="Layer 1">
+        <Layer name="Layer 1" visible="true" printed="true"/>
+      </FlowsheetLayers>
+      <UMS><![CDATA[]]></UMS>
+      <Body><![CDATA[PARAMETER
+    NoComp          AS ORDERED_SET
+    xin1            AS ARRAY (NoComp)   OF REAL
+    xin2            AS ARRAY (NoComp)   OF REAL
+    v               AS ARRAY (NoComp)   OF INTEGER      # Stoichiometric Coefficient
+    w               AS REAL
+    Keq             AS REAL
+    Vp              AS REAL                             # Valve Position
+    R               AS REAL
+    T               AS REAL
+    Patm            AS REAL
+    Vol             AS REAL                             # Volume
+    
+VARIABLE
+    N               AS ARRAY(NoComp)    OF Holdup
+    Fin1                                AS MolFlow
+    Fin2                                AS MolFlow
+    Fout                                AS MolFlow
+    x               AS ARRAY(NoComp)    OF MolFrac
+    rate                                AS Rate
+    NT                                  AS Holdup               # Total Holdup
+    Pcomp           AS ARRAY(NoComp)    OF Pressure             # Partial Pressure
+    cv                                  AS NoType
+    P                                   AS Pressure             # Total Pressure
+    kr                                  AS RateConstant
+    K               AS ARRAY (NoComp)   OF AdsorptionConstant   # Kinetic Constants
+
+EQUATION
+    # Molar balance
+    $N(NoComp) = (Fin1 / 60) * xin1(NoComp) + (Fin2 / 60) * xin2(NoComp) - (Fout / 60) * x(NoComp) + v(NoComp) * (rate / 60) * w;
+    
+    # Molar fraction
+    x(NoComp) = N(NoComp) / NT;
+
+    # Sum of moles
+    NT = SIGMA(N(NoComp));
+
+    # Rate equation
+    rate = (kr * (Pcomp('1') * Pcomp('2') ^ 2 - (1 / Keq) * Pcomp('3'))) / (1 + K('1') * Pcomp('1') + K('2') * Pcomp('2') + K('3') * Pcomp('3')) ^ 3;
+    
+    # Partial pressure
+    Pcomp(NoComp) = x(NoComp) * P;
+
+    # Fout
+    Fout = (Vp * cv) / SQRT(T) * (P - Patm);
+
+    # Ideal gas law
+    P * Vol = NT * R * T;]]></Body>
+    </ModelEntity>
+  </Group>
+  <Group name="Processes">
+    <ProcessEntity name="Q2" version="1">
+      <Properties>
+        <StringProperty name="CreatedBy">rosha</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-10T16:19:06Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-07T10:25:10Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="SimulationExecutionDirectory"></StringProperty>
+        <BooleanProperty name="IncludeUnitSpecifications">true</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">false</BooleanProperty>
+      </Properties>
+      <Body><![CDATA[UNIT
+    R101 AS CSTR
+
+SET
+    WITHIN R101 DO
+        # 1 = CO, 2 = H2, 3 = CH3OH
+        NoComp  := ['1', '2', '3'];
+        xin1    := [1, 0, 0];
+        xin2    := [0, 1, 0];
+        v       := [-1, -2, 1];
+        w       := 0.01;
+        kr      := 0.5;
+        Keq     := 0.02;
+        K("1")  := 0.15;
+        K("2")  := 0.35;
+        K("3")  := 0.1;
+        Vp      := 0.5;
+        R       := 8.314462;
+        T       := 475.15;
+        Patm    := 101.325;
+        Vol     := 0.005;
+    END
+
+ASSIGN
+    WITHIN R101 DO
+        Fin1    := 0.01;
+        Fin2    := 0.02;
+        P       := 1900;
+    END
+
+INITIAL STEADY_STATE
+
+SOLUTIONPARAMETERS
+    IgnoreDAEIndexAnalysis := ON]]></Body>
+    </ProcessEntity>
+    <ProcessEntity name="Q3" version="1">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-13T23:05:33Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-07T10:27:58Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="SimulationExecutionDirectory"></StringProperty>
+        <BooleanProperty name="IncludeUnitSpecifications">true</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">false</BooleanProperty>
+      </Properties>
+      <Body><![CDATA[UNIT
+    R101 AS CSTR
+
+SET
+    WITHIN R101 DO
+        # 1 = CO, 2 = H2, 3 = CH3OH
+        NoComp  := ['1', '2', '3'];
+        xin1    := [1, 0, 0];
+        xin2    := [0, 1, 0];
+        v       := [-1, -2, 1];
+        w       := 0.01;
+        kr      := 0.5;
+        Keq     := 0.02;
+        K("1")  := 0.15;
+        K("2")  := 0.35;
+        K("3")  := 0.1;
+        Vp      := 0.5;
+        R       := 8.314462;
+        T       := 475.15;
+        Patm    := 101.325;
+        Vol     := 0.005;
+    END
+
+ASSIGN
+    WITHIN R101 DO
+        Fin1    := 0.01;
+        Fin2    := 0.02;
+        cv      := 3.2505157E-4;
+    END
+
+INITIAL
+    WITHIN R101 DO
+        N("1")  = 3.0580553E-4;
+        N("2")  = 6.1161065E-4;
+        N("3")  = 0.0014872717;
+    END
+
+SOLUTIONPARAMETERS
+    IgnoreDAEIndexAnalysis := ON
+
+SCHEDULE
+    SEQUENCE
+        CONTINUE FOR 5
+        REASSIGN 
+            R101.Fin1 := old(R101.Fin1) * 1.2;
+        END
+
+        CONTINUE FOR 40
+    END
+        ]]></Body>
+    </ProcessEntity>
+    <ProcessEntity name="Q4" version="1">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-17T12:22:54Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-14T16:28:32Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="SimulationExecutionDirectory"></StringProperty>
+        <BooleanProperty name="IncludeUnitSpecifications">true</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">false</BooleanProperty>
+      </Properties>
+      <Body><![CDATA[UNIT
+    R101 AS Controller
+
+SET
+    WITHIN R101 DO
+        # 1 = CO, 2 = H2, 3 = CH3OH
+        NoComp  := ['1', '2', '3'];
+        kr      := 0.5;
+        K       := [0.15, 0.35, 0.1];
+        Keq     := 0.02;
+        R       := 8.314462;
+        T       := 475.15;
+        xin1    := [1, 0, 0];
+        xin2    := [0, 1, 0];
+        v       := [-1, -2, 1];
+        w       := 0.01;
+        Patm    := 101.325;
+        Vol     := 0.005;
+        Vpss    := 0.5;
+    END
+
+ASSIGN
+    WITHIN R101 DO
+        Fin1    := 0.01;
+        Fin2    := 0.02;
+        cv      := 3.2505157E-4;
+        Pset    := 1900;
+        Kc      := 0.001;
+        ti      := 0.1;
+    END
+
+INITIAL
+    WITHIN R101 DO
+        N("1")  = 3.0580553E-4;
+        N("2")  = 6.1161065E-4;
+        N("3")  = 0.0014872717;
+        VpDummy = 0.5;
+        ISE     = 0;
+    END
+
+SOLUTIONPARAMETERS
+    IgnoreDAEIndexAnalysis := ON
+
+SCHEDULE
+    SEQUENCE 
+        CONTINUE FOR 1
+        REASSIGN 
+            R101.Pset := 1600;
+        END
+
+        CONTINUE FOR 10
+        REASSIGN 
+            R101.Pset := 1800;
+        END
+
+        CONTINUE FOR 10
+    END
+        ]]></Body>
+    </ProcessEntity>
+    <ProcessEntity name="Q5_Q6" version="1">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-19T12:58:36Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2020-01-07T10:28:45Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="SimulationExecutionDirectory"></StringProperty>
+        <BooleanProperty name="IncludeUnitSpecifications">true</BooleanProperty>
+        <BooleanProperty name="IncludeInitialisationProcedure">false</BooleanProperty>
+      </Properties>
+      <Body><![CDATA[UNIT
+    R101 AS ParameterEstimation
+
+SET
+    WITHIN R101 DO
+        # 1 = CO, 2 = H2, 3 = CH3OH
+        NoComp  := ['1', '2', '3'];
+        xin1    := [1, 0, 0];
+        xin2    := [0, 1, 0];
+        v       := [-1, -2, 1];
+        w       := 0.01;
+        Keq     := 0.02;
+        Vp      := 0.5;
+        R       := 8.314462;
+        T       := 475.15;
+        Patm    := 101.325;
+        Vol     := 0.005;
+    END
+
+ASSIGN
+    WITHIN R101 DO
+        Fin1    := 0.01;
+        Fin2    := 0.02;
+        cv      := 3.2505157E-4;
+
+        # Parameter estimation
+        kr      := 0.5;
+        K("1")  := 0.15;
+        K("2")  := 0.35;
+        K("3")  := 0.1;
+    END
+
+INITIAL
+    WITHIN R101 DO
+        N("1")  = 3.0580553E-4;
+        N("2")  = 6.1161065E-4;
+        N("3")  = 0.0014872717;
+    END
+
+SOLUTIONPARAMETERS
+    IgnoreDAEIndexAnalysis := ON
+
+SCHEDULE
+    SEQUENCE
+        CONTINUE FOR 1
+        REASSIGN 
+            R101.Fin1 := 0.0225;
+        END
+
+        CONTINUE FOR 20
+        REASSIGN 
+            R101.Fin1 := 0.018;
+        END
+
+        CONTINUE FOR 20
+    END
+        ]]></Body>
+    </ProcessEntity>
+  </Group>
+  <Group name="Experiments">
+    <Group name="... performed">
+      <ExperimentPerformedEntity name="Q5_Q6">
+        <Properties>
+          <StringProperty name="CreatedBy">danni</StringProperty>
+          <DateProperty name="CreatedDate">2019-12-17T15:25:47Z</DateProperty>
+          <StringProperty name="ModifiedBy">danni</StringProperty>
+          <DateProperty name="ModifiedDate">2019-12-23T15:43:04Z</DateProperty>
+          <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+          <StringProperty name="DefaultTab">general</StringProperty>
+        </Properties>
+        <Body><![CDATA[PROCESS Q5_Q6
+
+INTERVALS
+3
+1.0
+20.0
+20.0
+
+INITIAL_CONDITION
+R101.N("1") [kilomole] 3.0580553E-4
+R101.N("2") [kilomole] 6.1161065E-4
+R101.N("3") [kilomole] 0.0014872717
+
+PIECEWISE_CONSTANT
+R101.Fin1 [kilomole_per_hour]
+0.01
+0.0225
+0.018
+
+SENSOR
+PX101
+CONSTANT_VARIANCE [kilopascal] (1.0 [0.0 : 0.0])
+
+SENSOR
+CX101
+CONSTANT_RELATIVE_VARIANCE (0.005 [0.0 : 0.0])
+
+SENSOR
+CX102
+CONSTANT_RELATIVE_VARIANCE (0.005 [0.0 : 0.0])
+
+MEASURE
+R101.P [kilopascal]
+USE_SENSOR
+PX101
+0.0 1716.2
+1.0 1717.4
+2.0 1830.5
+3.0 1933.9
+4.0 2048.4
+5.0 2161.3
+6.0 2269.3
+7.0 2368.7
+8.0 2458.5
+9.0 2543.1
+10.0 2617.1
+11.0 2686.3
+12.0 2748.7
+13.0 2806.2
+14.0 2856.2
+15.0 2904.5
+16.0 2944.4
+17.0 2982.8
+18.0 3018.4
+19.0 3049.7
+20.0 3077.3
+21.0 3102.2
+22.0 3071.4
+23.0 3040.1
+24.0 3010.7
+25.0 2982.9
+26.0 2958.1
+27.0 2933.8
+28.0 2914.5
+29.0 2898.0
+30.0 2877.9
+31.0 2863.0
+32.0 2848.7
+33.0 2837.2
+34.0 2823.6
+35.0 2815.4
+36.0 2803.8
+37.0 2797.6
+38.0 2789.3
+39.0 2784.0
+40.0 2776.9
+41.0 2770.7
+
+MEASURE
+R101.x("1")
+USE_SENSOR
+CX101
+0.0 0.0852
+1.0 0.0843
+2.0 0.1537
+3.0 0.208
+4.0 0.2569
+5.0 0.2974
+6.0 0.3308
+7.0 0.361
+8.0 0.3863
+9.0 0.4064
+10.0 0.4206
+11.0 0.4366
+12.0 0.4496
+13.0 0.458
+14.0 0.4695
+15.0 0.4768
+16.0 0.4881
+17.0 0.4907
+18.0 0.4995
+19.0 0.5059
+20.0 0.5124
+21.0 0.5106
+22.0 0.5054
+23.0 0.5029
+24.0 0.4951
+25.0 0.4941
+26.0 0.4896
+27.0 0.49
+28.0 0.4811
+29.0 0.4818
+30.0 0.4744
+31.0 0.4752
+32.0 0.4732
+33.0 0.4707
+34.0 0.4718
+35.0 0.4623
+36.0 0.4642
+37.0 0.4646
+38.0 0.4627
+39.0 0.4659
+40.0 0.4674
+41.0 0.4618
+
+MEASURE
+R101.x("3")
+USE_SENSOR
+CX102
+0.0 0.7492
+1.0 0.7466
+2.0 0.713
+3.0 0.6757
+4.0 0.6466
+5.0 0.6127
+6.0 0.5882
+7.0 0.5601
+8.0 0.5388
+9.0 0.519
+10.0 0.5074
+11.0 0.4892
+12.0 0.4724
+13.0 0.4667
+14.0 0.4576
+15.0 0.4475
+16.0 0.4384
+17.0 0.4325
+18.0 0.427
+19.0 0.4166
+20.0 0.419
+21.0 0.4131
+22.0 0.4136
+23.0 0.4219
+24.0 0.4269
+25.0 0.4283
+26.0 0.4332
+27.0 0.4404
+28.0 0.4416
+29.0 0.442
+30.0 0.4442
+31.0 0.4457
+32.0 0.4517
+33.0 0.4527
+34.0 0.4507
+35.0 0.4551
+36.0 0.4601
+37.0 0.4568
+38.0 0.4603
+39.0 0.4647
+40.0 0.4658
+41.0 0.4665
+
+]]></Body>
+      </ExperimentPerformedEntity>
+    </Group>
+    <Group name="... to be designed">
+    </Group>
+  </Group>
+  <Group name="Parameter Estimations">
+    <EstimationEntity name="Q5">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-17T15:24:35Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:19:38Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="DefaultTab">experimentsAndMeasurements</StringProperty>
+      </Properties>
+      <Body><![CDATA[EXPERIMENTS
+Q5_Q6 FOR_ESTIMATION
+
+ESTIMATE
+R101.kr
+0.5 : 0.05 : 5.0
+
+]]></Body>
+    </EstimationEntity>
+    <EstimationEntity name="Q6">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-17T16:05:46Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:22:19Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="DefaultTab">experimentsAndMeasurements</StringProperty>
+      </Properties>
+      <Body><![CDATA[EXPERIMENTS
+Q5_Q6 FOR_ESTIMATION
+
+ESTIMATE
+R101.kr
+0.5 : 0.05 : 5.0
+
+ESTIMATE
+R101.K("1")
+0.15 : 0.12 : 0.18
+
+ESTIMATE
+R101.K("2")
+0.35 : 0.28 : 0.42
+
+ESTIMATE
+R101.K("3")
+0.1 : 0.08 : 0.12
+
+]]></Body>
+    </EstimationEntity>
+  </Group>
+  <Group name="Optimisations">
+    <OptimisationEntity name="Q4" version="2">
+      <Properties>
+        <StringProperty name="CreatedBy">danni</StringProperty>
+        <DateProperty name="CreatedDate">2019-12-17T12:30:01Z</DateProperty>
+        <StringProperty name="ModifiedBy">danni</StringProperty>
+        <DateProperty name="ModifiedDate">2019-12-23T15:39:57Z</DateProperty>
+        <BooleanProperty name="Win32LineSeparation">false</BooleanProperty>
+        <StringProperty name="DefaultTab">general</StringProperty>
+      </Properties>
+      <Body><![CDATA[PROCESS Q4
+
+OPTIMISATION_TYPE
+DYNAMIC
+
+HORIZON
+21.0 [21.0 : 21.0]
+
+INTERVALS
+3
+1.0 [1.0 : 1.0]
+10.0 [1.0 : 1.0]
+10.0 [1.0 : 1.0]
+
+TIME_INVARIANT
+R101.Kc
+INITIAL_VALUE
+0.001 : 0.0 : 0.05
+
+PIECEWISE_CONSTANT
+R101.Pset
+INITIAL_PROFILE
+1900.0 [0.0 : 0.0]
+1600.0 [0.0 : 0.0]
+1800.0 [0.0 : 0.0]
+
+
+TIME_INVARIANT
+R101.ti [hour]
+INITIAL_VALUE
+0.1 : 0.0 : 1.0
+
+ENDPOINT_INEQUALITY
+R101.error [kilopascal]
+-1000.0 : 1000.0
+
+ENDPOINT_INEQUALITY
+R101.P [kilopascal]
+800.0 : 2800.0
+
+MINIMISE
+R101.ISE
+]]></Body>
+    </OptimisationEntity>
+  </Group>
+</gMB:GpromsProject>
